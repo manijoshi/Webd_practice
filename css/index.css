@@ -1,0 +1,97 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family:sans-serif;
+}
+body{
+    border: 1px solid black;
+}
+header{
+	padding: 5px;
+    background: #1abc9c;
+    border-bottom: 1px solid black;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+header > h1{
+
+    font-size: 2em;
+    font-weight: bold;
+}
+#form_section{
+	margin: 5% 0;
+}
+#skill{
+	padding: 6px;
+}
+#button{
+	padding: 8px;
+}
+.divider{
+    border-right: 3px solid #1abc9c;
+    height: 400px;
+    display: block;
+}
+hr{
+    display: none;
+}
+#display_section{
+	 margin: 4% 0;
+}
+#display_section > h3{
+	text-align: center;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color:  rgba(199, 229, 79, 0.146);
+  }
+@media only screen and (max-width: 991px) {
+  .divider {
+    display: none;
+  }
+  hr{
+  	display: block;
+    height: 6px !important;
+    background-color: #1abc9c;
+    color: #1abc9c;
+    width: auto;
+    margin-left: 5%;
+  }
+}
+
+.table-bordered{
+	border: 2px solid rgb(147, 170, 65);
+}
+
+th{
+	background-color: rgb(170, 196, 76) !important;
+	color: white;
+}
+footer{
+	padding: 6px;
+    text-align: center;
+    background: #1abc9c;
+    border-top: 1px solid black;
+    color: white;
+    font-size: 10px;
+}
+footer > h1{
+
+    font-size: 1.2em;
+    font-weight: bold;
+}
+tr{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
